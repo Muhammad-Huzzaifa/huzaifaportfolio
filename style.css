@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0F0F0F;
+}
+
+.custom-heading {
+    font-family: "Ubuntu", sans-serif;
+    color: #FFFFFF;
+}
+
+.custom-heading-sub {
+    color: #DCFF7E !important;
+}
+
+.custom-paragraph {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: justify;
+}
+
+.custom-but-lin {
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+}
+
+.custom-images {
+    border-radius: 3rem;
+}
+
+.custom-logo {
+    border-color: #DCFF7D !important;
+    color: #FFFFFF;
+}
+
+.custom-nav-ul .nav-link:hover {
+    border-bottom: 1px solid #666666;
+}
+
+.navbar-toggler:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: 1px solid #FFFFFF;
+}
+
+.custom-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15% 0;
+}
+
+.custom-about {
+    border-radius: 2rem;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.custom-portfolio {
+    background-color: #DCFF7D;
+}
+
+.portfolio-heading {
+    font-family: "Ubuntu", sans-serif;
+    color: #0F0F0F !important;
+}
+
+.custom-heading-port {
+    font-family: "Ubuntu", sans-serif;
+    color: #0F0F0F !important;
+    font-size: 30px;
+}
+
+.custom-paragraph-port {
+    font-family: "Ubuntu", sans-serif;
+    color: #666666 !important;
+}
+
+.custom-portfolio .carousel{
+    width: 70%;
+    height: 40%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-education {
+    display: flex;
+    flex-direction: column;
+}
+
+.costom-education-comp {
+    display: flex;
+    justify-content: space-around;
+    border-left: 2px solid #DCFF7D;
+}
+
+.custom-skills-com {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-skills-img {
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid #DCFF7D;
+    border-radius: 1rem;
+}
+
+.custom-contact>.custom-paragraph {
+    color: #666666;
+}
+
+@media (max-width: 991px) {
+    .custom-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .custom-nav-ul {
+        text-align: center;
+    }
+    .custom-hero .custom-heading {
+        text-align: center;
+    }
+    .custom-hero .custom-paragraph {
+        text-align: center;
+    }
+    .custom-heading-port {
+        font-size: 20px;
+    }
+    .custom-portfolio .carousel{
+        width: 100%;
+        height: 60%;
+    }
+    .custom-education {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .costom-education-comp {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+        border-left: none;
+    }
+    .underline {
+        border-bottom: 2px solid #DCFF7D;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-heading-sub {
+        text-align: center;
+    }
+    .custom-education {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
