@@ -29,6 +29,10 @@ body {
     border-radius: 3rem;
 }
 
+.custom-navbar {
+    background-color: rgba(15, 15, 15, 0.8);
+}
+
 .custom-logo {
     border-color: #DCFF7D !important;
     color: #FFFFFF;
